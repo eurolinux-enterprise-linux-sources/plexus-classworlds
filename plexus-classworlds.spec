@@ -1,6 +1,6 @@
 Name:           plexus-classworlds
 Version:        2.4.2
-Release:        7%{?dist}
+Release:        8%{?dist}
 Summary:        Plexus Classworlds Classloader Framework
 License:        ASL 2.0 and Plexus
 URL:            http://plexus.codehaus.org/
@@ -75,6 +75,9 @@ cp %{SOURCE1} .
 %doc LICENSE.txt LICENSE-2.0.txt
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.4.2-8
+- Mass rebuild 2013-12-27
+
 * Fri Jul 26 2013 Michal Srb <msrb@redhat.com> - 2.4.2-7
 - Fix Provides and Obsoletes
 
